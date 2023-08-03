@@ -122,14 +122,14 @@ const disabledClass = 'disabled';
 
 const setCurrentPage = () => {
   const currentPageName = window.location.pathname;
-  console.log(currentPageName);
+  // console.log(currentPageName);
 
   if (
     currentPageName === '/bookProject/index.html' ||
     currentPageName === '/bookProject/project-new_skill/' ||
     currentPageName === '/bookProject/project-new_skill/index.html'
   ) {
-    console.log('test');
+    // console.log('test');
     menuHomeEl.classList.add('current-page');
     menuShoppingEl.classList.remove('current-page');
     toggleElDisabled(menuShoppingEl);
